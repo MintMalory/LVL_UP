@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LevelUP_HT1</string>
+    <string name="title_activity_a">A</string>
+    <string name="title_activity_b">B</string>
+    <string name="title_activity_c">C</string>
+    <string name="title_activity_d">D</string>
+</resources>
