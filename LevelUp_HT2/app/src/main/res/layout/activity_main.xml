@@ -21,28 +21,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="R" />
+            android:text="R"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <CheckBox
             android:id="@+id/green_checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="G" />
+            android:text="G"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <CheckBox
             android:id="@+id/blue_checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="B" />
+            android:text="B"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></RelativeLayout>
+        android:layout_height="match_parent"
+        android:id="@+id/fragments">
+
+    </RelativeLayout>
 </LinearLayout>
